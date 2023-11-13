@@ -1,7 +1,7 @@
-import { ContactContainer, ContactName } from './contact.styled';
+import { ContactContainer, ContactName } from './Contact.styled';
 
 import { useDispatch } from 'react-redux';
-import { deleteContacts } from 'redux/operations';
+import { deleteContacts } from 'redux/contacts/operations';
 
 export const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
