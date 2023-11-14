@@ -1,54 +1,21 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
-export const FormStyled = styled.form`
-  display: flex;
-  flex-direction: row;
-  width: 472px;
-
-  padding: 12px;
-  margin-top: 28px;
-  margin-bottom: 48px;
-`;
-
-export const Button = styled.button`
-  min-width: 118px;
-  height: 49px;
-  background-color: white;
-  margin-top: 106px;
-  margin-left: 382px;
-  border-radius: 60px;
-  border-color: black;
+export const ButtonAddContact = styled.button`
+  margin-right: 1612px;
+  background-color: yellowgreen;
+  margin-left: 200px;
+  margin-top: -116px;
+  color: black;
   border: none;
-  cursor: pointer;
-  box-shadow: 3px 5px 20px rgba(0, 5, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 124px;
 
   &:hover {
-    background-color: var(--main-color);
-    color: black;
-    border: 2px solid white;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(0.8);
+    transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: white;
+    cursor: pointer;
   }
-`;
-
-export const LabelStyled = styled.label`
-  padding-left: 11px;
-  margin-bottom: 12px;
-  font-size: 20px;
-  font-weight: bold;
-
-  input {
-    display: block;
-    width: 167px;
-    margin-left: 29px;
-    border-radius: 10%;
-  }
-`;
-
-export const Form = styled.form`
-  color: white;
-`;
-
-export const Input = styled.input`
-  padding: 10px;
-  border: 30px;
 `;

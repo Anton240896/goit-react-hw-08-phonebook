@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom';
 import { AppBar } from './AppBar/AppBar';
 import { Suspense } from 'react';
-import { ImBook } from 'react-icons/im';
+import { FaMobile } from 'react-icons/fa';
 
 export const Layout = () => {
   return (
     <>
-      <ImBook size={610} style={{ marginLeft: '425px', marginTop: '20px' }} />
+      <FaMobile size={610} style={{ marginLeft: '380px', marginTop: '20px' }} />
       <AppBar />
       <Suspense fallback={null}>
         <Outlet />
