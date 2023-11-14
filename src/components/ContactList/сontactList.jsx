@@ -1,5 +1,5 @@
 import { Contact } from 'components/Contact/Contact';
-import { ContactListStyled } from './ContactList.styled';
+import { ContactListStyled } from './сontactList.styled';
 import { selectContacts } from 'redux/contacts/selectors';
 import { selectFilter } from 'redux/filter/selectors';
 import { useSelector } from 'react-redux';

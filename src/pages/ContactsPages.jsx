@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Helmet } from 'react-helmet';
-import { ContactList } from 'components/ContactList/ContactList';
+import { ContactList } from 'components/ContactList/сontactList';
 import { ContactForm } from 'components/ContactForm/contactForm';
 import { fetchContacts } from 'redux/contacts/operations';
 import { selectIsLoading } from 'redux/contacts/selectors';
