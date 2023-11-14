@@ -1,4 +1,4 @@
-import { ContactContainer, ContactName } from './Contact.styled';
+import { ContactContainer, ContactName } from './contact.styled';
 import { Button } from 'components/RegisterForm/RegisterForm.styled';
 
 import { useDispatch } from 'react-redux';
