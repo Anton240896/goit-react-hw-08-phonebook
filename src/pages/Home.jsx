@@ -1,7 +1,9 @@
+import { ContainerMain } from 'pages/Home.styled';
+
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to Phonebook 💁‍♀️ !</h1>
+      <ContainerMain>Welcome to Phonebook 📞 !</ContainerMain>
     </div>
   );
 }
