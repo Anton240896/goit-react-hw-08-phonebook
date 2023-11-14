@@ -17,10 +17,13 @@ export const Button = styled.button`
   background-color: yellowgreen;
   color: black;
   border: none;
-  border-radius: 10px;
+  border-radius: 43px;
   padding: 15px;
   min-height: 30px;
-  width: 138px;
+  width: 80px;
+  height: 73px;
+  margin-left: 100px;
+  margin-top: 18px;
 
   &:hover {
     transform: scale(0.8);
