@@ -14,7 +14,7 @@ export const LabelName = styled.label`
 `;
 
 export const Button = styled.button`
-  margin-right: 627px;
+  margin-right: 999px;
   background-color: yellowgreen;
   margin-left: auto;
   color: black;
@@ -27,9 +27,12 @@ export const Button = styled.button`
   &:hover {
     transform: scale(1.2);
     transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
-
     background-color: white;
     cursor: pointer;
+
+    @media (max-width: 796px) {
+      margin-left: 100px;
+    }
   }
 `;
 
@@ -37,6 +40,10 @@ export const InputRegister = styled.input`
   height: 30px;
   margin-left: 10px;
   text-align: center;
+
+  @media (max-width: 796px) {
+    margin-left: 40px;
+  }
 `;
 
 export const InputEmail = styled.input`

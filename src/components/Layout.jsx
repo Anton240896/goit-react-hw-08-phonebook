@@ -6,7 +6,7 @@ import { ImBook } from 'react-icons/im';
 export const Layout = () => {
   return (
     <>
-      <ImBook size={610} style={{ marginLeft: '30%', marginTop: '20px' }} />
+      <ImBook size={610} style={{ marginLeft: '425px', marginTop: '20px' }} />
       <AppBar />
       <Suspense fallback={null}>
         <Outlet />
