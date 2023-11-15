@@ -9,11 +9,8 @@ export const ButtonAddContact = styled.button`
   width: 80px;
   height: 73px;
   margin-left: 645px;
-  margin-top: 151px;
-  margin-bottom: -18px;
+  margin-top: 51px;
   &:hover {
-    transform: scale(0.8);
-    transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: white;
     cursor: pointer;
   }

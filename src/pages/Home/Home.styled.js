@@ -5,8 +5,4 @@ export const ContainerMain = styled.h1`
   margin-left: 525px;
   margin-top: -118px;
   font-size: 25px;
-
-  @media (max-width: 903px) {
-    font-size: 25px;
-  }
 `;

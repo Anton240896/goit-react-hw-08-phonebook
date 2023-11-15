@@ -24,17 +24,11 @@ export const Button = styled.button`
   width: 80px;
   height: 73px;
   margin-left: 100px;
-  margin-top: 18px;
+  margin-top: 122px;
 
   &:hover {
-    transform: scale(0.8);
-    transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: white;
     cursor: pointer;
-
-    @media (max-width: 796px) {
-      margin-left: 100px;
-    }
   }
 `;
 
@@ -43,10 +37,6 @@ export const InputRegister = styled.input`
   margin-left: 10px;
   text-align: center;
   width: 187px;
-
-  @media (max-width: 796px) {
-    margin-left: 40px;
-  }
 `;
 
 export const InputEmail = styled.input`
