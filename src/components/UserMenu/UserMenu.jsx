@@ -2,9 +2,7 @@ import { useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/operations';
 import { selectUser } from 'redux/auth/selectors';
 import { useSelector } from 'react-redux';
-import { Button } from 'components/RegisterForm/RegisterForm.styled';
-import { NameUser, ContUser } from './UserMenu.styled';
-// import { ContainerMain } from 'pages/Home.styled';
+import { NameUser, ContUser, ButtonLogout } from './UserMenu.styled';
 
 export const UserMenu = () => {
   const user = useSelector(selectUser);
@@ -13,9 +11,9 @@ export const UserMenu = () => {
   return (
     <ContUser>
       <NameUser>Welcome! {user.name} </NameUser>
-      <Button type="button" onClick={() => dispatch(logOut())}>
+      <ButtonLogout type="button" onClick={() => dispatch(logOut())}>
         Logout
-      </Button>
+      </ButtonLogout>
     </ContUser>
   );
 };
