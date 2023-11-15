@@ -5,7 +5,6 @@ export const ContactContainer = styled.li`
   align-items: flex-end;
   font-weight: bold;
   gap: 40px;
-  margin-top: -116px;
 `;
 
 export const ContactName = styled.div`

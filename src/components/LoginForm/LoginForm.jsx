@@ -6,7 +6,7 @@ import {
   Button,
   InputRegister,
   InputEmail,
-} from 'components/RegisterForm/RegisterForm.styled';
+} from './LoginForm.styled';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
