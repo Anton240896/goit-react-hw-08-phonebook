@@ -13,9 +13,10 @@ export const Nav = styled(NavLink)`
   }
 `;
 
-export const Contacts = styled.p`
+export const Contacts = styled(NavLink)`
+  text-decoration: none;
   font-weight: 700;
   color: white;
   font-size: 20px;
-  margin-left: 54px;
+  margin-left: -88px;
 `;
