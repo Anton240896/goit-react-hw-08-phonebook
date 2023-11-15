@@ -19,4 +19,8 @@ export const Contacts = styled(NavLink)`
   color: white;
   font-size: 20px;
   margin-left: -88px;
+
+  &:hover {
+    color: yellowgreen;
+  }
 `;
