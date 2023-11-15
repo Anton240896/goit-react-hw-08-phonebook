@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Helmet } from 'react-helmet';
 import { ContactList } from 'components/ContactList/сontactList';
 import { ContactForm } from 'components/ContactForm/contactForm';
-import { Filter } from 'components/Filter/Filter';
+import { Filter } from 'components/Filter/FilterContacts';
 
 import { fetchContacts } from 'redux/contacts/operations';
 import { selectIsLoading } from 'redux/contacts/selectors';
