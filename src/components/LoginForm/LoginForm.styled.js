@@ -30,6 +30,10 @@ export const Button = styled.button`
     background-color: white;
     cursor: pointer;
   }
+
+  @media (max-width: 839px) {
+    margin-top: 87px;
+  }
 `;
 
 export const InputRegister = styled.input`

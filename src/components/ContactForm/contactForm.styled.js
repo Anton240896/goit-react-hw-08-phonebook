@@ -10,13 +10,14 @@ export const ButtonAddContact = styled.button`
   height: 73px;
   margin-left: 645px;
   margin-top: 51px;
+
   &:hover {
     background-color: white;
     cursor: pointer;
   }
 
-  input {
-    width: 162px;
+  @media (max-width: 871px) {
+    margin-top: 116px;
   }
 `;
 

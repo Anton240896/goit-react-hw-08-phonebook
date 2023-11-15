@@ -30,4 +30,5 @@ export const ButtonDelete = styled.button`
     border: 2px solid white;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
 `;
