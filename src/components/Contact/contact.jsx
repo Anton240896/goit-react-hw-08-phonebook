@@ -1,5 +1,4 @@
-import { ContactContainer, ContactName } from './contact.styled';
-import { Button } from 'components/RegisterForm/RegisterForm.styled';
+import { ContactContainer, ContactName, ButtonDelete } from './contact.styled';
 
 import { useDispatch } from 'react-redux';
 import { deleteContacts } from 'redux/contacts/operations';
@@ -12,9 +11,9 @@ export const Contact = ({ id, name, number }) => {
       <ContactName key={id}>
         {name}: {number}
       </ContactName>
-      <Button type="button" onClick={() => dispatch(deleteContacts(id))}>
+      <ButtonDelete type="button" onClick={() => dispatch(deleteContacts(id))}>
         Delete
-      </Button>
+      </ButtonDelete>
     </ContactContainer>
   );
 };

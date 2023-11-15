@@ -1,4 +1,4 @@
-import { ContainerMain } from 'pages/Home.styled';
+import { ContainerMain } from 'pages/Home/Home.styled';
 
 export default function Home() {
   return (

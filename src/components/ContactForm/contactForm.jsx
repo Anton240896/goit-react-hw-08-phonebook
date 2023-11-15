@@ -1,19 +1,15 @@
-// import { useState } from 'react';
-// import { nanoid } from 'nanoid';
-
 import { useDispatch, useSelector } from 'react-redux';
 
 import { selectContacts } from 'redux/contacts/selectors';
 import { addContacts } from 'redux/contacts/operations';
-import { ButtonAddContact } from './contactForm.styled';
-import toast from 'react-hot-toast';
 import {
-  FormRegister,
-  LabelName,
-  InputRegister,
-} from 'components/RegisterForm/RegisterForm.styled';
+  ButtonAddContact,
+  LabelStyled,
+  ContContacts,
+} from './contactForm.styled';
+import toast from 'react-hot-toast';
 
-import { Formik } from 'formik';
+import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 
 // solution 2 with library Formic
@@ -54,19 +50,17 @@ export const ContactForm = () => {
       }}
     >
       {() => (
-        <FormRegister>
-          <LabelName htmlFor="name">Contacts</LabelName>
-          <InputRegister name="name" type="text" placeholder="Enter name..." />
+        <Form>
+          <ContContacts>
+            <LabelStyled htmlFor="name">Contacts</LabelStyled>
+            <Field name="name" type="text" placeholder="Enter name..." />
 
-          <LabelName htmlFor="number">Phone</LabelName>
-          <InputRegister
-            name="number"
-            type="text"
-            placeholder="Enter number..."
-          />
+            <LabelStyled htmlFor="number">Phone</LabelStyled>
+            <Field name="number" type="text" placeholder="Enter number..." />
+          </ContContacts>
 
           <ButtonAddContact type="submit">Add contact</ButtonAddContact>
-        </FormRegister>
+        </Form>
       )}
     </Formik>
   );

@@ -6,7 +6,7 @@ export const Container = styled.div``;
 export const Link = styled(NavLink)`
   text-decoration: none;
   padding: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: white;
   font-size: 40px;
 

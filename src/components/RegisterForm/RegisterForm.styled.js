@@ -11,6 +11,7 @@ export const FormRegister = styled.form`
 
 export const LabelName = styled.label`
   color: white;
+  font-size: 20px;
 `;
 
 export const Button = styled.button`
@@ -49,7 +50,8 @@ export const InputRegister = styled.input`
 `;
 
 export const InputEmail = styled.input`
-  margin-left: 42px;
+  margin-left: 50px;
   height: 30px;
   text-align: center;
+  width: 187px;
 `;
