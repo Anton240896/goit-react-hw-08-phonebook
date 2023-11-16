@@ -16,8 +16,8 @@ export const ButtonAddContact = styled.button`
     cursor: pointer;
   }
 
-  @media (max-width: 871px) {
-    margin-top: 116px;
+  @media (max-width: 838px) {
+    margin-top: 206px;
   }
 `;
 

@@ -31,8 +31,12 @@ export const Button = styled.button`
     cursor: pointer;
   }
 
-  @media (max-width: 839px) {
-    margin-top: 87px;
+  @media (min-width: 100px) and (max-width: 388px) {
+    margin-top: 85px;
+  }
+
+  @media (min-width: 880px) {
+    margin-top: 177px;
   }
 `;
 

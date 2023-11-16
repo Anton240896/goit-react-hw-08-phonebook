@@ -12,6 +12,7 @@ export const FormRegister = styled.form`
 export const LabelName = styled.label`
   color: white;
   font-size: 20px;
+  display: flex;
 `;
 
 export const Button = styled.button`
@@ -31,8 +32,12 @@ export const Button = styled.button`
     cursor: pointer;
   }
 
-  @media (max-width: 839px) {
-    margin-top: 8px;
+  @media (min-width: 100px) and (max-width: 400px) {
+    margin-top: 75px;
+  }
+
+  @media (min-width: 880px) {
+    margin-top: 121px;
   }
 `;
 
