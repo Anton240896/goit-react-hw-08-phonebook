@@ -9,6 +9,7 @@ export const Layout = () => {
     <ContPhone>
       <FaMobile size={610} style={{ marginLeft: '380px', marginTop: '20px' }} />
       <AppBar />
+
       <Suspense fallback={null}>
         <Outlet />
       </Suspense>
