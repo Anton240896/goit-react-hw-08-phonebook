@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgoit_react_hw_08_phonebook=self.webpackChunkgoit_react_hw_08_phonebook||[]).push([[304],{304:function(n,e,o){o.r(e),o.d(e,{default:function(){return u}});var t,r=o(168),c=o(5867).ZP.h1(t||(t=(0,r.Z)(["\n  color: #000000;\n  margin-left: 916px;\n  margin-top: -256px;\n  font-size: 25px;\n"]))),i=o(184);function u(){return(0,i.jsx)("div",{children:(0,i.jsx)(c,{children:"Welcome to Phonebook \ud83d\udcde Here you can register and enter your contacts!"})})}}}]);
-//# sourceMappingURL=304.fa401f4a.chunk.js.map
