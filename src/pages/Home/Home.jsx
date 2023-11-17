@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <div>
       <ContainerMain>
-        Welcome to Phonebook 📞 Here you can register and enter your contacts!
+        Welcome to your virtual phone 📱! Here you can register and enter your
+        contacts!
       </ContainerMain>
     </div>
   );
