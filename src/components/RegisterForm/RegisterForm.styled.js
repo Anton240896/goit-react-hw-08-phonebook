@@ -20,12 +20,12 @@ export const Button = styled.button`
   color: black;
   border: none;
   border-radius: 43px;
-  padding: 15px;
   min-height: 30px;
   width: 80px;
   height: 73px;
   margin-left: 100px;
   margin-top: 122px;
+  font-size: 18px;
 
   &:hover {
     background-color: white;
