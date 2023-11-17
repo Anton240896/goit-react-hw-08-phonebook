@@ -16,9 +16,18 @@ export const ButtonAddContact = styled.button`
     cursor: pointer;
   }
 
-  @media (max-width: 838px) {
+  @media (min-width: 150px) and (max-width: 420px) {
+    margin-top: 153px;
+  }
+
+  @media (min-width: 421px) and (max-width: 838px) {
     margin-top: 206px;
   }
+
+  /* 
+  @media (max-width: 838px) {
+    margin-top: 205px;
+  } */
 `;
 
 export const LabelStyled = styled.label`
