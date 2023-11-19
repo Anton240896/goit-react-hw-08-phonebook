@@ -6,6 +6,7 @@ import {
   Button,
   InputRegister,
   InputEmail,
+  Message,
 } from './RegisterForm.styled';
 
 export const RegisterForm = () => {
@@ -48,6 +49,11 @@ export const RegisterForm = () => {
         />
       </LabelName>
       <Button type="submit">Register</Button>
+      <Message>
+        <b>
+          <p>Here you can register 🖊!</p>
+        </b>
+      </Message>
     </FormRegister>
   );
 };

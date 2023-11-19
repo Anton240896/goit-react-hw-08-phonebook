@@ -53,3 +53,9 @@ export const InputEmail = styled.input`
   text-align: center;
   width: 187px;
 `;
+
+export const Message = styled.p`
+  margin-top: -487px;
+  margin-left: 373px;
+  font-size: 30px;
+`;

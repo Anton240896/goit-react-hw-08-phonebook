@@ -6,6 +6,7 @@ import {
   Button,
   InputRegister,
   InputEmail,
+  Message,
 } from './LoginForm.styled';
 
 export const LoginForm = () => {
@@ -38,6 +39,14 @@ export const LoginForm = () => {
         />
       </LabelName>
       <Button type="submit">Log In</Button>
+      <Message>
+        <b>
+          <p>
+            Congratulations 😊, you are already a virtual user, enter your email
+            and password and then enter your contacts.
+          </p>
+        </b>
+      </Message>
     </FormRegister>
   );
 };

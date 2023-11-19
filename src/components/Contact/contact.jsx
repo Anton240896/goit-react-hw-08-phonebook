@@ -9,7 +9,7 @@ export const Contact = ({ id, name, number }) => {
   return (
     <ContactContainer>
       <ContactName key={id}>
-        {name}: {number}
+        {name} : {number}
       </ContactName>
       <ButtonDelete type="button" onClick={() => dispatch(deleteContacts(id))}>
         Delete

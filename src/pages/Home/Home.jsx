@@ -5,7 +5,6 @@ export default function Home() {
     <div>
       <ContainerMain>
         <p>Welcome to your virtual phone 📱!</p>
-        <p>Here you can register and enter your contacts!</p>
       </ContainerMain>
     </div>
   );
