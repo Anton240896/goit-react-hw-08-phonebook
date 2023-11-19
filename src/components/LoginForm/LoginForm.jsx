@@ -42,8 +42,8 @@ export const LoginForm = () => {
       <Message>
         <b>
           <p>
-            Congratulations 😊, you are already a virtual user, enter your email
-            and password and then enter your contacts.
+            If you are already here, then you are already a virtual user😊,
+            enter your email address and password, and then enter your contacts.
           </p>
         </b>
       </Message>
