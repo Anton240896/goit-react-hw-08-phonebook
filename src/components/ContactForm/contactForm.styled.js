@@ -24,11 +24,6 @@ export const ButtonAddContact = styled.button`
   @media (min-width: 421px) and (max-width: 838px) {
     margin-top: 206px;
   }
-
-  /* 
-  @media (max-width: 838px) {
-    margin-top: 205px;
-  } */
 `;
 
 export const LabelStyled = styled.label`

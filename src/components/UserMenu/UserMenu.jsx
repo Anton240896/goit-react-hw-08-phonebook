@@ -10,7 +10,7 @@ export const UserMenu = () => {
 
   return (
     <ContUser>
-      <NameUser>Welcome! {user.name} </NameUser>
+      <NameUser>Welcome! {user.name}</NameUser>
       <ButtonLogout type="button" onClick={() => dispatch(logOut())}>
         Logout
       </ButtonLogout>

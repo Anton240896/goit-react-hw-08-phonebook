@@ -4,7 +4,17 @@ export const ContactContainer = styled.li`
   display: flex;
   align-items: flex-end;
   font-weight: bold;
-  gap: 40px;
+  gap: 146px;
+  border-style: double;
+  padding-left: 70px;
+  margin-right: 320px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border-color: #000000;
+
+  @media (max-width: 1170px) {
+    border: none;
+  }
 `;
 
 export const ContactName = styled.div`
@@ -30,5 +40,4 @@ export const ButtonDelete = styled.button`
     border: 2px solid white;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
 `;

@@ -41,10 +41,7 @@ export const LoginForm = () => {
       <Button type="submit">Log In</Button>
       <Message>
         <b>
-          <p>
-            If you are already here, then you are already a virtual user😊,
-            enter your email address and password, and then enter your contacts.
-          </p>
+          <p>If you are registered, enter your email and password ⌨️ </p>
         </b>
       </Message>
     </FormRegister>
