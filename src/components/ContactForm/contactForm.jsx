@@ -12,7 +12,6 @@ import toast from 'react-hot-toast';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 
-// solution 2 with library Formic
 /*======== FORMIK =======*/
 const PhoneBookSchema = Yup.object().shape({
   name: Yup.string()
