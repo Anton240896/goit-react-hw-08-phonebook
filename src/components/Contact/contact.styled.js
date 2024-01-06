@@ -5,8 +5,6 @@ export const ContactContainer = styled.li`
   align-items: flex-end;
   font-weight: bold;
   gap: 146px;
-  padding-left: 70px;
-  margin-right: 320px;
   margin-top: 10px;
 `;
 
