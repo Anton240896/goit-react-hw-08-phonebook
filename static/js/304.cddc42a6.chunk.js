@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_08_phonebook=self.webpackChunkgoit_react_hw_08_phonebook||[]).push([[304],{304:function(n,e,t){t.r(e),t.d(e,{default:function(){return h}});var r,i=t(168),o=t(5867).ZP.h1(r||(r=(0,i.Z)(["\n  margin-left: 916px;\n  margin-top: -221px;\n  font-size: 30px;\n  padding-left: 70px;\n  margin-right: 320px;\n"]))),p=t(184);function h(){return(0,p.jsx)("div",{children:(0,p.jsx)(o,{children:(0,p.jsx)("p",{children:"Welcome to your virtual phone \ud83d\udcf1!"})})})}}}]);
+//# sourceMappingURL=304.cddc42a6.chunk.js.map
