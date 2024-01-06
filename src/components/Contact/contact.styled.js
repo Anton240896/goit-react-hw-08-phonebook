@@ -4,7 +4,7 @@ export const ContactContainer = styled.li`
   display: flex;
   align-items: flex-end;
   font-weight: bold;
-  gap: 146px;
+  gap: 19px;
   margin-top: 10px;
 `;
 
