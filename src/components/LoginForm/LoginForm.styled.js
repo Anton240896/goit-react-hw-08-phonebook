@@ -59,13 +59,6 @@ export const Message = styled.p`
   margin-top: -487px;
   margin-left: 373px;
   font-size: 30px;
-  border-style: double;
-  border-color: #000000;
   padding-left: 70px;
   margin-right: 160px;
-  border-radius: 30px;
-
-  @media (max-width: 995px) {
-    border: none;
-  }
 `;

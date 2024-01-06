@@ -5,16 +5,9 @@ export const ContactContainer = styled.li`
   align-items: flex-end;
   font-weight: bold;
   gap: 146px;
-  border-style: double;
   padding-left: 70px;
   margin-right: 320px;
   margin-top: 10px;
-  border-radius: 30px;
-  border-color: #000000;
-
-  @media (max-width: 1170px) {
-    border: none;
-  }
 `;
 
 export const ContactName = styled.div`
