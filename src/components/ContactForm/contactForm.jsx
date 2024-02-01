@@ -52,10 +52,20 @@ export const ContactForm = () => {
         <Form>
           <ContContacts>
             <LabelStyled htmlFor="name">Contacts</LabelStyled>
-            <Field name="name" type="text" placeholder="Enter name..." />
+            <Field
+              name="name"
+              type="text"
+              placeholder="Enter name..."
+              required
+            />
 
             <LabelStyled htmlFor="number">Phone</LabelStyled>
-            <Field name="number" type="text" placeholder="Enter number..." />
+            <Field
+              name="number"
+              type="number"
+              placeholder="Enter number..."
+              required
+            />
           </ContContacts>
 
           <ButtonAddContact type="submit">Add contact</ButtonAddContact>
