@@ -28,13 +28,19 @@ export const LoginForm = () => {
     <FormRegister onSubmit={handleSubmit} autoComplete="off">
       <LabelName>
         Email
-        <InputEmail type="email" name="email" placeholder="Enter email..." />
+        <InputEmail
+          type="email"
+          name="email"
+          required
+          placeholder="Enter email..."
+        />
       </LabelName>
       <LabelName>
         Password
         <InputRegister
           type="password"
           name="password"
+          required
           placeholder="Enter password..."
         />
       </LabelName>

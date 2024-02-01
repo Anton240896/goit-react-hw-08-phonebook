@@ -33,18 +33,25 @@ export const RegisterForm = () => {
         <InputRegister
           type="text"
           name="name"
+          required
           placeholder="Enter username..."
         />
       </LabelName>
       <LabelName>
         Email
-        <InputEmail type="email" name="email" placeholder="Enter email..." />
+        <InputEmail
+          type="email"
+          name="email"
+          required
+          placeholder="Enter email..."
+        />
       </LabelName>
       <LabelName>
         Password
         <InputRegister
           type="password"
           name="password"
+          required
           placeholder="Enter password..."
         />
       </LabelName>
